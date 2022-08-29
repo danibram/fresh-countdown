@@ -8,7 +8,7 @@ export function Footer() {
     >
       <a
         class={tw`font-bold flex justify-start items-center cursor-pointer`}
-        href="https://github.com/denoland/showcase_chat"
+        href="https://github.com/danibram/fresh-countdown"
         rel="noopener noreferrer"
         target="_blank"
       >
