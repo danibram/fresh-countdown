@@ -24,7 +24,7 @@ export default function GameTile(props: {
         ...(tile.top ? { top: `${tile.top}px` } : {}),
       }}
     >
-      <img
+      <div
         style={{
           backgroundPosition: `-${left}px -0px`,
           background: `url(${src})`,
