@@ -10,6 +10,10 @@ export function NesCss() {
         rel="stylesheet"
       />
       <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        rel="stylesheet"
+      />
+      <link
         href="https://unpkg.com/nes.css@latest/css/nes.min.css"
         rel="stylesheet"
       />

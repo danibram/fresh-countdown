@@ -17,19 +17,10 @@ export default function Main({ url }: PageProps<Record<never, never>>) {
             <Countdown />
             <div class={tw`mb-6`} />
             <div class="nes-container with-title" style={{ textAlign: "left" }}>
-              <p class="title">Readme</p>
+              <p class="title">Trainer tips</p>
               <div class="lists">
                 <ul class="nes-list is-disc">
-                  <li>Set timer</li>
-                  <div class="lists">
-                    <ul
-                      class="nes-list is-circle"
-                      style={{ marginLeft: "1.5rem" }}
-                    >
-                      <li>With keyboard numbers</li>
-                      <li>With screen numbers</li>
-                    </ul>
-                  </div>
+                  <li>Set timer with keyboard numbers</li>
                   <li>Enter to start</li>
                   <li>Spacebar to pause/unpause</li>
                   <li>Escape/Backspace to stop</li>
