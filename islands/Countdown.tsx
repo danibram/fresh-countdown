@@ -15,8 +15,6 @@ import { useKeyPress } from "../helpers/useKeyPress.ts";
 import GameSprite from "./Game_Sprite.tsx";
 import GameTile from "./Game_Tile.tsx";
 
-import Keyboard from "./keyBoard.tsx";
-
 export default function Countdown() {
   const [enterPress] = useKeyPress("Enter");
   const [scapePress] = useKeyPress("Escape");
@@ -154,6 +152,7 @@ export default function Countdown() {
         >
           {counter}
         </div>
+        {/*
         <Keyboard
           isPaused={!isRunning}
           isStopped={target === null}
@@ -162,7 +161,7 @@ export default function Countdown() {
           onPlay={() => handlePause()}
           onStop={() => handleStop()}
           onStart={() => handleStart()}
-        />
+        />*/}
       </div>
     </>
   );
